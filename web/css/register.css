@@ -1,0 +1,128 @@
+/* styles.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.top-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-container i {
+    margin-right: 10px;
+    color: #aaa;
+}
+
+.input-container input {
+    border: none;
+    outline: none;
+    background: none;
+    flex: 1;
+    padding: 8px;
+}
+
+.input-container input::placeholder {
+    color: #aaa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #111;
+}
+
+.turnToLoginButton{
+    width: 48%;
+    padding: 10px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+
+.hint{
+    text-align: center;
+    color: #5a6268;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.button-container button {
+    width: 48%;
+}
+
+#resetButton {
+    background-color: #f1f1f1; /* Example style, match your .btn style */
+    border: 1px solid #ccc;
+    color: #333;
+    width: 48%;
+}
+#resetButton:hover {
+    background-color: #5a6268; /* Example hover style */
+}
+
+#loginButton{
+    width: 48%;
+    padding: 10px;
+    background-color: #075f85;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#loginButton:hover{
+    background-color: #05435e;
+}
+
+
